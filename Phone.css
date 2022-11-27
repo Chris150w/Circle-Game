@@ -1,0 +1,24 @@
+
+#otp {
+    background-color:grey;
+    float: left;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+}
+#canvas {
+    background-color:darkslateblue;
+    width: 6.5in;
+    height: 6.5in;
+    position: relative;
+    float:left;
+    left:6.5%;
+}
+
+#info {
+    position: relative;
+    float: right;
+    right: 2%;
+}
+
+input {width:2cm;}
