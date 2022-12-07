@@ -1,3 +1,4 @@
+
 <html><head>
   <link rel="stylesheet" href="Phone.css">
   <title>Physics</title>
@@ -12,8 +13,8 @@ Here it is<br>
 <div id="info">
 <select onchange="eval(this.value)">
 <option>Select a Level</option>
-<option value="currentLevel = new Level(badGuys[0],coinGuys[0],&quot;renderList[2].speed=0.25&quot;)">Level Vonnie/Tutorial</option>
-<option value="currentLevel = new Level(badGuys[0],coinGuys[0])">Level 1</option>
+<option value="currentLevel = new Level([[Coin,-25,-25]],coinGuys[0],'renderList[2].speed=0.25',signGuys[0])">Level Vonnie/Tutorial</option>
+<option value="currentLevel = new Level(badGuys[0],coinGuys[0],0,signGuys[1])">Level 1</option>
 <option value="currentLevel = new Level([[Blinky,50,50],[Blinky,150,150]],coinGuys[2])">Level Julia</option>
 <option value="currentLevel = new Level(badGuys[1],coinGuys[2])">Level 2</option>
 <option value="currentLevel = new Level(badGuys[2],coinGuys[2])">Level 3</option>
