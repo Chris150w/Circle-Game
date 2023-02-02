@@ -13,8 +13,9 @@ function paint(run,rise,message,color){
 }
 
 function background(ñ){qqq='';
-	col=fwd.split('\n');
+	col=fwd.split('\n');col[5]=`0`
 	for(let q=0;q<ñ.length;q++){col[5]+=`;paint(${ñ[q]})`;}
+	console.log(ñ)
 	for(let qq=0;qq<fwd.split('\n').length;qq++){qqq+=(col[qq]+'\n')};
 	fwd=qqq
 	stopAll();stopAll();
