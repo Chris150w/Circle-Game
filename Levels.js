@@ -62,6 +62,9 @@ coinGuys=[
 
 signGuys=[
 [[`190,456,'WASD to move','grey'`],[`50,650,'Collect all the Coins to win','yellow'`]],
-[[`50,700,'This is Blinky','red'`]],
+[[`50,250,'This is Blinky','red'`],[`50,600,'He likes to zoom very fast'`],[`50,650,'& when you move in straight lines'`]],
+[[`425,350,'This is Pinky','hotpink'`],[`50,50,'She zooms not as fast'`],[`50,100,'but likes to predict your moves'`]],
+
+
 [[]]
 ]
