@@ -1,22 +1,19 @@
-
 <html><head>
   <link rel="stylesheet" href="Phone.css">
   <title>Physics</title>
   <meta charset="utf-8">
 </head>
 <body id="body">
-
 <div id="otp">
 Here it is<br>
 <canvas id="canvas" width="750" height="750"></canvas>
-
 <div id="info">
 <select onchange="eval(this.value)">
 <option>Select a Level</option>
-<option value="currentLevel = new Level([[Coin,-25,-25]],coinGuys[0],'renderList[2].speed=0.25',signGuys[0])">Level Vonnie/Tutorial</option>
+<option value="currentLevel = new Level(badGuys[0],coinGuys[0],'renderList[2].speed=0.25',signGuys[0])">Level Vonnie/Tutorial</option>
 <option value="currentLevel = new Level(badGuys[0],coinGuys[0],0,signGuys[1])">Level 1</option>
 <option value="currentLevel = new Level([[Blinky,50,50],[Blinky,150,150]],coinGuys[2])">Level Julia</option>
-<option value="currentLevel = new Level(badGuys[1],coinGuys[2])">Level 2</option>
+<option value="currentLevel = new Level(badGuys[1],coinGuys[2],0,signGuys[2])">Level 2</option>
 <option value="currentLevel = new Level(badGuys[2],coinGuys[2])">Level 3</option>
 <option value="currentLevel = new Level(badGuys[5],coinGuys[2])">Level Kevin</option>
 <option value="currentLevel = new Level(badGuys[4],coinGuys[2])">Level Connor</option>
@@ -26,9 +23,6 @@ Here it is<br>
 <div id="speedometer">speed</div>
 <div>Words <span id="points">0</span></div></div>
 </div>
-
 <script src="Classes.js"></script>
 <script src="Levels.js"></script>
 <script src="Phonr.js"></script>
-
-</body></html>
